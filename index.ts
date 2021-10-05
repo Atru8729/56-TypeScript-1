@@ -80,8 +80,10 @@ class Gyvenviete {
 
 const gyvenviete1 = new Gyvenviete("Vilnius", 587581, 401);
 const gyvenviete2 = new Gyvenviete("Klaipėda", 149157, 110);
+const gyvenviete3 = new Gyvenviete("Varėna", 7892, 11);
 
 gyvenviete1.spausdintiDuomenis();
 gyvenviete2.spausdintiDuomenis();
+gyvenviete3.spausdintiDuomenis();
 
 console.log(gyvenviete1.pavadinimas);
